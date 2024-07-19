@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  margin: 10px;
+}
+
+.box {
+  flex: 1;
+  margin: 15px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 13px;
+  height: 125px;
+}
+
+.box:hover {
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.orderSummary {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.orderSummary_SubText {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.orderSummary .text1 {
+  margin: 0px;
+  font-size: 35px;
+}
+.orderSummary .text2 {
+  margin: 0px;
+  font-size: 22px;
+}
+.Top_Sellers {
+  /* text-align: center; */
+  margin-top: 50px;
+  margin: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-table .ant-table-cell {
+  text-align: center;
+}
+
+.Show_Table_text {
+  font-size: 35px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.status_buttion {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+}
+
+.status_buttion :hover {
+  text-decoration: underline;
+}

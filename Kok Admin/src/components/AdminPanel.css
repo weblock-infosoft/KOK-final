@@ -1,0 +1,14 @@
+.admin-panel .logo {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.admin-panel .logo img {
+  width: 80%;
+  height: auto;
+}
+
+.admin-panel .content {
+  margin-left: 250px;
+  padding: 20px;
+}
